@@ -1,0 +1,25 @@
+{
+  "name": "lib-test",
+  "description": "Test Cases",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "private": true,
+  "license": "Private",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "bundleDependencies": [],
+  "dependencies": {
+    "js-helper-crypto-nodejs": "npm:@codebase-rocket/js-helper-crypto-nodejs@^1.0.0",
+    "js-helper-debug": "npm:@codebase-rocket/js-helper-debug@^1.0.0",
+    "js-helper-instance": "npm:@codebase-rocket/js-helper-instance@^1.0.0",
+    "js-helper-jwt": "file:../",
+    "js-helper-time": "npm:@codebase-rocket/js-helper-time@^1.0.0",
+    "js-helper-utils": "npm:@codebase-rocket/js-helper-utils@^1.0.0",
+    "json-web-token": "^3.2.0"
+  }
+}
